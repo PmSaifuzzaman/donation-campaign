@@ -7,22 +7,22 @@ const DonationCard = ({ donation }) => {
 
 
     return (
-        <div>
+        <div className='border rounded-lg' style={{background:donation.card_bg}}>
             <Link to={`/donations/${id}`}>
-                <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-                    <div className="relative mx-4 mt-4  overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
+                <div className="">
+                    <div className="">
                         <img
                             src={picture}
                             className="h-full w-full object-cover"
                         />
                     </div>
                     <div className="p-6">
-                        <div className="mb-2 flex items-center justify-between">
-                            <p className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                        <div className=" ">
+                            <button className='px-1 font-medium rounded' style={{backgroundColor:donation.card_bg, color:donation.text_color}}>
                                 {category}
-                            </p>
+                            </button>
                         </div>
-                        <p className="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75">
+                        <p className='text-xl font-semibold' style={{color:donation.category_bg}}>
                             {title}
                         </p>
                     </div>

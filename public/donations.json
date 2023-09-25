@@ -7,7 +7,7 @@
       "category_bg": "#0052FF",
       "card_bg": "#0052FF26",
       "text_color": "#0052FF",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Support our mission to provide clean water to children in underserved areas. Your contribution helps prevent waterborne diseases, ensuring a healthier start in life. Together, we can make a lasting impact on their well-being and future.",
       "price": "$19.99"
     },
     {
@@ -18,7 +18,7 @@
       "category_bg": "#FF444A",
       "card_bg": "#FF444A26",
       "text_color": "#FF444A",
-      "description": "Suspendisse potenti. Fusce eget tincidunt odio.",
+      "description": "Transform lives through education. Your generous donation supports quality education initiatives, empowering students to reach their full potential. Join us in building a brighter, more educated future for young minds.",
       "price": "$29.99"
     },
     {
@@ -29,7 +29,7 @@
       "category_bg": "#79C23F",
       "card_bg": "#79C23F26",
       "text_color": "#79C23F",
-      "description": "Nunc id mi ut turpis suscipit imperdiet.",
+      "description": "Make a difference by donating gently used clothing. Your contributions help clothe those in need, offering warmth and dignity. Together, we can foster a sense of community and ensure everyone has access to essential clothing.",
       "price": "$39.99"
     },
     {
@@ -40,7 +40,7 @@
       "category_bg": "#F87147",
       "card_bg": "#F8714726",
       "text_color": "#F87147",
-      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "description": "Join us in the fight against hunger and food insecurity. Your support enables us to provide nutritious meals to those who need it most. Together, we can create a world where everyone has access to better food and improved well-being.",
       "price": "$49.99"
     },
     {
@@ -51,7 +51,7 @@
       "category_bg": "#0052FF",
       "card_bg": "#0052FF26",
       "text_color": "#0052FF",
-      "description": "Vivamus gravida tortor eu nunc bibendum, vel iaculis odio rhoncus.",
+      "description": "Support our mission to provide clean water to children in underserved areas. Your contribution helps prevent waterborne diseases, ensuring a healthier start in life. Together, we can make a lasting impact on their well-being and future.",
       "price": "$59.99"
     },
     {
@@ -62,7 +62,7 @@
       "category_bg": "#FF444A",
       "card_bg": "#FF444A26",
       "text_color": "#FF444A",
-      "description": "Curabitur eleifend dapibus mauris, a euismod sapien ullamcorper id.",
+      "description": "Transform lives through education. Your generous donation supports quality education initiatives, empowering students to reach their full potential. Join us in building a brighter, more educated future for young minds.",
       "price": "$69.99"
     },
     {
@@ -73,7 +73,7 @@
       "category_bg": "#79C23F",
       "card_bg": "#79C23F26",
       "text_color": "#79C23F",
-      "description": "Duis ullamcorper dolor ut quam aliquam, ac tristique metus malesuada.",
+      "description": "Make a difference by donating gently used clothing. Your contributions help clothe those in need, offering warmth and dignity. Together, we can foster a sense of community and ensure everyone has access to essential clothing.",
       "price": "$79.99"
     },
     {
@@ -84,7 +84,7 @@
       "category_bg": "#F87147",
       "card_bg": "#F8714726",
       "text_color": "#F87147",
-      "description": "Fusce quis elit ac elit ultricies laoreet non eget tortor.",
+      "description": "Join us in the fight against hunger and food insecurity. Your support enables us to provide nutritious meals to those who need it most. Together, we can create a world where everyone has access to better food and improved well-being.",
       "price": "$89.99"
     },
     {
@@ -95,7 +95,7 @@
       "category_bg": "#0052FF",
       "card_bg": "#0052FF26",
       "text_color": "#0052FF",
-      "description": "Praesent non quam non ex volutpat feugiat vel at elit.",
+      "description": "Support our mission to provide clean water to children in underserved areas. Your contribution helps prevent waterborne diseases, ensuring a healthier start in life. Together, we can make a lasting impact on their well-being and future.",
       "price": "$99.99"
     },
     {
@@ -106,7 +106,7 @@
       "category_bg": "#FF444A",
       "card_bg": "#FF444A26",
       "text_color": "#FF444A",
-      "description": "Aenean fermentum, tortor ac placerat cursus, neque odio vehicula dui.",
+      "description": "Transform lives through education. Your generous donation supports quality education initiatives, empowering students to reach their full potential. Join us in building a brighter, more educated future for young minds.",
       "price": "$109.99"
     },
     {
@@ -117,7 +117,7 @@
       "category_bg": "#79C23F",
       "card_bg": "#79C23F26",
       "text_color": "#79C23F",
-      "description": "Nullam luctus urna nec cursus aliquam. Morbi ut quam vel ligula.",
+      "description": "Make a difference by donating gently used clothing. Your contributions help clothe those in need, offering warmth and dignity. Together, we can foster a sense of community and ensure everyone has access to essential clothing.",
       "price": "$119.99"
     },
     {
@@ -128,7 +128,7 @@
       "category_bg": "#F87147",
       "card_bg": "#F8714726",
       "text_color": "#F87147",
-      "description": "Vestibulum pharetra nunc in velit rhoncus, ut vestibulum justo dignissim.",
+      "description": "Join us in the fight against hunger and food insecurity. Your support enables us to provide nutritious meals to those who need it most. Together, we can create a world where everyone has access to better food and improved well-being.",
       "price": "$129.99"
     }
   ]

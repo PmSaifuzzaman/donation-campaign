@@ -2,9 +2,8 @@
 
 const Banner = () => {
     return (
-        <div className="h-[70vh] bg-slate-400">
-            {/* <img src="./src/assets/Rectangle 4288.png" alt="" /> */}
-            Banner
+        <div className="h-[70vh] ">
+            <img className="w-full h-96" src="/src/assets/banner.jpg" alt="" />
         </div>
     );
 };
