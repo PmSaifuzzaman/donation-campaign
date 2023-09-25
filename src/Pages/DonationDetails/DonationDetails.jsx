@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import swal from "sweetalert";
 
 
 const DonationDetails = () => {
@@ -16,7 +17,35 @@ const DonationDetails = () => {
         const findDonation = donations?.find(donation => donation.id === id);
         setDonation(findDonation)
     }, [id, donations]);
-    console.log(donation)
+    
+
+    const handleAddToDonation = () =>{
+        console.log(donation);
+
+        const addedDonatedItemsArray = [];
+
+        const donatedItems = JSON.parse(localStorage.getItem('donations'));
+
+        if (!donatedItems){
+            addedDonatedItemsArray.push(donation);
+            localStorage.setItem('donations', JSON.stringify(addedDonatedItemsArray));
+            swal("Good job!", "Donation added!", "success");
+        }
+        else{
+
+            const isExist = donatedItems?.find(donation => donation.id === id);
+            if(!isExist){
+                addedDonatedItemsArray.push(...donatedItems, donation);
+                localStorage.setItem('donations', JSON.stringify(addedDonatedItemsArray));
+                swal("Good job!", "Donation added!", "success");
+            }
+            else{
+                swal("Opps!", "Already exist!", "error");
+            }
+
+            
+        }
+    }
 
     return (
         <div className="flex items-center justify-center">
@@ -28,7 +57,7 @@ const DonationDetails = () => {
                     <h2 className="card-title">{donation.title}</h2>
                     <p>{donation.description}</p>
                     <div className="card-actions">
-                        <button className="btn bg-red-600">Donate {donation.price}</button>
+                        <button onClick={handleAddToDonation} className="btn bg-red-600">Donate {donation.price}</button>
                     </div>
                 </div>
             </div>
