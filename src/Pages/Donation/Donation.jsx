@@ -6,27 +6,37 @@ import DonatedItem from "../../Components/Donations/DonatedItem";
 const Donation = () => {
 
     const [donations, setDonations] = useState([]);
-    const [noDataFound, setNoDataFound] = useState('');
+    const [noDataFound, setNoDataFound] = useState(false);
 
     useEffect(() => {
         const donatedItems = JSON.parse(localStorage.getItem('donations'));
-        if (setDonations) {
+        if (donatedItems) {
             setDonations(donatedItems);
+            
         }
         else {
             setNoDataFound("No data found");
+            
         }
 
     }, []);
+
+    const handleDeleteall = () => {
+        localStorage.clear();
+        setDonations([]);
+        setNoDataFound("No data found");
+    }
 
     return (
         <div>
 
             {noDataFound ? (
-                <p className="h-[80vh] flex justify-center items-center">{noDataFound}</p>
+              <p className="text-center my-44 font-bold">{noDataFound}</p>
             ) : (
                 <div>
-
+                    {
+                        donations.length > 0 && <button onClick={handleDeleteall} className=" my-6 mx-auto block btn px-5 py-2 bg-red-500  text-white">Delete all Donations</button>
+                    }
 
                     <div className="grid grid-cols-2 gap-5">
                         {
