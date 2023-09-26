@@ -58,7 +58,7 @@ const Statistics = () => {
             <div className=" space-y-6 ">
                 <div className="flex items-center gap-4"><p>Total Donation</p><p className="w-8 h-3 bg-[#FF444A]"></p></div>
                 <div className="flex items-center gap-4"><p>Your Donation</p><p className="w-8 h-3 bg-[#00C49F]"></p></div>
-                
+
             </div>
             <PieChart width={400} height={400}>
                 <Pie
