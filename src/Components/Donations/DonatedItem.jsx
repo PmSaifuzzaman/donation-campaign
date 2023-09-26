@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const DonatedItem = ({ donation }) => {
 
-    const {id, picture, title, price, category } = donation;
+    const { id, picture, title, price, category } = donation;
 
     return (
         <div>

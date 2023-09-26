@@ -14,11 +14,11 @@ const Donation = () => {
         const donatedItems = JSON.parse(localStorage.getItem('donations'));
         if (donatedItems) {
             setDonations(donatedItems);
-            
+
         }
         else {
             setNoDataFound("No data found");
-            
+
         }
 
     }, []);
@@ -35,7 +35,7 @@ const Donation = () => {
         <div>
 
             {noDataFound ? (
-              <p className="text-center my-44 font-bold">{noDataFound}</p>
+                <p className="text-center my-44 font-bold">{noDataFound}</p>
             ) : (
                 <div>
                     {
@@ -46,14 +46,14 @@ const Donation = () => {
                         {
                             isShow ? donations.map((donation) => (
                                 <DonatedItem key={donation.id} donation={donation}></DonatedItem>
-                            ))  :
-                            donations.slice(0,4).map((donation) => (
-                                <DonatedItem key={donation.id} donation={donation}></DonatedItem>
-                            ))    
+                            )) :
+                                donations.slice(0, 4).map((donation) => (
+                                    <DonatedItem key={donation.id} donation={donation}></DonatedItem>
+                                ))
                         }
                     </div>
                     {
-                        donations.length > 4 && <button onClick={() => setIsShow(!isShow)}  className=" my-6 mx-auto block btn px-5 py-2 bg-red-500  text-white">{isShow? "See Less" : "See More"}</button>
+                        donations.length > 4 && <button onClick={() => setIsShow(!isShow)} className=" my-6 mx-auto block btn px-5 py-2 bg-red-500  text-white">{isShow ? "See Less" : "See More"}</button>
                     }
 
                 </div>

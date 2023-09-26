@@ -7,3 +7,7 @@
  - Interactive Pie Chart: The statistics page features an interactive pie chart that visualizes donation statistics. This chart calculates and displays the percentage of donations made by the user against the total donations. Users can view this chart to gain insights into their contribution relative to the overall donations. The interactive nature of the chart makes the statistics engaging and informative.
 
  - Responsive Design: Your project's responsive design ensures that it adapts to various devices, including desktops, mobile phones, and tablets. This feature enhances the accessibility and usability of your website by providing an optimal user experience regardless of the device used. It involves creating layouts and styles that adjust seamlessly to different screen sizes and orientations.
+
+
+
+Live link: https://ephemeral-churros-f0fb06.netlify.app/
