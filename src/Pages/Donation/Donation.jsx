@@ -8,6 +8,7 @@ const Donation = () => {
     const [donations, setDonations] = useState([]);
     const [noDataFound, setNoDataFound] = useState(false);
     const [isShow, setIsShow] = useState(false);
+    // const [totalPrice, setTotalPrice] = useState(0);
 
     useEffect(() => {
         const donatedItems = JSON.parse(localStorage.getItem('donations'));
@@ -41,7 +42,7 @@ const Donation = () => {
                         donations.length > 0 && <button onClick={handleDeleteall} className=" my-6 mx-auto block btn px-5 py-2 bg-red-500  text-white">Delete all Donations</button>
                     }
 
-                    <div className="grid grid-cols-2 gap-5">
+                    <div className="p-4 grid grid-cols-1 lg:grid-cols-2 gap-5">
                         {
                             isShow ? donations.map((donation) => (
                                 <DonatedItem key={donation.id} donation={donation}></DonatedItem>
@@ -51,7 +52,9 @@ const Donation = () => {
                             ))    
                         }
                     </div>
-                    <button onClick={() => setIsShow(!isShow)}  className=" my-6 mx-auto block btn px-5 py-2 bg-red-500  text-white">{isShow? "See Less" : "See More"}</button>
+                    {
+                        donations.length > 4 && <button onClick={() => setIsShow(!isShow)}  className=" my-6 mx-auto block btn px-5 py-2 bg-red-500  text-white">{isShow? "See Less" : "See More"}</button>
+                    }
 
                 </div>
             )}

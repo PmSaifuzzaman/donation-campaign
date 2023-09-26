@@ -8,8 +8,8 @@ const DonatedItem = ({ donation }) => {
     return (
         <div>
             <div className="card rounded-lg card-side bg-base-100 shadow-xl flex gap-3 items-center" style={{ background: donation.card_bg }}>
-                <figure><img src={picture} alt="Photos" /></figure>
-                <div className="card-body space-y-2">
+                <figure className='h-full w-1/2'><img src={picture} alt="Photos" /></figure>
+                <div className="card-body space-y-2 py-2">
                     <button className='px-1 font-medium rounded' style={{ backgroundColor: donation.card_bg, color: donation.text_color }}>{category}</button>
                     <h2 className="card-title text-xl font-semibold" style={{ color: donation.category_bg }} >{title}</h2>
                     <p className='font-semibold' style={{ color: donation.category_bg }}>{price}</p>
