@@ -8,7 +8,7 @@ const DonationCard = ({ donation }) => {
 
     return (
         <div className='border rounded-lg' style={{background:donation.card_bg}}>
-            <Link to={`/donations/${id}`}>
+            <Link to={`/donation/${id}`}>
                 <div className="">
                     <div className="">
                         <img
