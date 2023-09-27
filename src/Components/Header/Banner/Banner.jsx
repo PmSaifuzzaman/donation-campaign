@@ -12,8 +12,8 @@ const Banner = () => {
                 <div className="hero-content text-center text-neutral-content relative z-10">
                     <div className="text-center space-y-9">
                         <h1 className="pt-10 text-5xl font-bold text-center text-black">I Grow By Helping People In Need</h1>
-                        <input type="text" placeholder="Search here...." className="bg-white border px-4 py-3 rounded-l-lg mt-4" />
-                        <button className="btn px-7 py-3 rounded-r-lg bg-[#FF444A] mt-4 text-white font-semibold">Search</button>
+                        <input type="text" placeholder="Search here...." maxLength={20} className="bg-white border pl-2 py-3 rounded-l-lg mt-4" />
+                        <button className="btn px-5 py-3 rounded-r-lg bg-[#FF444A] mt-4 text-white font-semibold">Search</button>
                     </div>
                 </div>
             </div>

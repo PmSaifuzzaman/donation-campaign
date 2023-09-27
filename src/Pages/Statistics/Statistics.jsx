@@ -54,9 +54,9 @@ const Statistics = () => {
 
 
     return (
-        <div className="md:flex items-center justify-around p-4">
-            <div className=" space-y-6 ">
-                <div className="flex items-center gap-4"><p>Total Donation</p><p className="w-8 h-3 bg-[#FF444A]"></p></div>
+        <div className="flex flex-col md:flex-row md:justify-center items-center mx-auto">
+            <div className=" space-y-6 pt-10 ">
+                <div className="flex items-center text-center gap-4"><p>Total Donation</p><p className="w-8 h-3 bg-[#FF444A]"></p></div>
                 <div className="flex items-center gap-4"><p>Your Donation</p><p className="w-8 h-3 bg-[#00C49F]"></p></div>
 
             </div>
